@@ -1,4 +1,4 @@
-# Use the Force
+# GIF Finder
 
 ## Objective
 
@@ -84,6 +84,7 @@ requested onto the DOM.
 #### CSS
   - Center your element with id `container` and id `result` 
 
+## Stretch Goals
 
 ## Resources
 
