@@ -85,7 +85,11 @@ requested onto the DOM.
   - Center your element with id `container` and id `result` 
 
 ## Stretch Goals
-
+1. Delete previous gifs before rendering new gifs when submitting more than 1 search request.
+  - [Remove Node](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/remove)
+2. Create a lightbox.
+  - [lightbox](https://www.w3schools.com/howto/howto_js_lightbox.asp)
+  
 ## Resources
 
 [GIPHY](https://developers.giphy.com/docs/)
