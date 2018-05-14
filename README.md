@@ -1,4 +1,4 @@
-# GIF Finder
+# Get Giphy
 
 ## Objective
 
