@@ -38,51 +38,12 @@ requested onto the DOM.
   
 #### JS
 
-1. Before implementing your search function, check if you can pull data from GIPHY API
+- Before implementing your search function, check if you can pull data from GIPHY API
   
     - check GIPHY documentation on how to use [Search Endpoint](https://developers.giphy.com/docs/)
     ```
     [Host][Get Path]?[q=YOUR VALUE]&[api_key=YOUR API KEY]&[limit= YOUR LIMIT AMOUNT]
-    ```
-
-    - Create a new XHR object
-    ```js 
-    var oReq = new XMLHttpRequest();
-    ```
-    - Declare a function to be used as the event listener.
-    ```js
-    function reqListener () {
-      console.log(JSON.parse(this.responseText));
-    }
-    ```
-    - Attach the event listener to an event
-    ``` js
-    oReq.addEventListener("load", reqListener);
-    ```
-    - Set the destination and send the request!
-    ``` js
-    oReq.open("GET", "http://www.example.com/api");
-    oReq.send();
-    ```
-    - The code 
-    ```js 
-    function reqListener () {
-      console.log(this.responseText);
-    }
-
-    var oReq = new XMLHttpRequest();
-    oReq.addEventListener("load", reqListener);
-    oReq.open("GET", "http://www.example.com/api");
-    oReq.send();
-    ```
-  
-2. Create `img` element 
-3. Set each GIPHY image url to each `img` element `src`
-4. append `img` to element with `id` container 
-5. Implement the search function by concatenating input value in API Search Enpoint
-
-#### CSS
-  - Center your element with id `container` and id `result` 
+    ``` 
 
 ## Stretch Goals
 1. Delete previous gifs before rendering new gifs when submitting more than 1 search request.
