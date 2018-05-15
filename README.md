@@ -27,6 +27,9 @@ Create a search bar using `HTML Form` and rendering gif from that search value.
 Make a `GET` request using XHR to the gifphy endpoint with your API key. Grab and append the respective values
 requested onto the DOM.
 
+#### Sign up for Giphy API KEY
+- https://developers.giphy.com/
+
 #### HTML
 
 - Create `div` element with id `container`
@@ -47,9 +50,9 @@ requested onto the DOM.
 
 ## Stretch Goals
 1. Delete previous gifs before rendering new gifs when submitting more than 1 search request.
-  - [Remove Node](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/remove)
+    - [Remove Node](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/remove)
 2. Create a lightbox.
-  - [lightbox](https://www.w3schools.com/howto/howto_js_lightbox.asp)
+    - [lightbox](https://www.w3schools.com/howto/howto_js_lightbox.asp)
   
 ## Resources
 
